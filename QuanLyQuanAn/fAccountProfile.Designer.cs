@@ -132,6 +132,7 @@
             this.label2.Size = new System.Drawing.Size(84, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật khẩu:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel4
             // 
@@ -196,6 +197,7 @@
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnExit
             // 
